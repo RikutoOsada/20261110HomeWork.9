@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="kazuate.cpp" />
-    <ClCompile Include="maincpp.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="janken.cpp" />
   </ItemGroup>
   <ItemGroup>
