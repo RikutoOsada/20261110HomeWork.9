@@ -16,6 +16,7 @@ void Kazuate() {
 
 	for (;;) {
 		int a;
+
 		cin >> a;
 
 		if (a == 0) {
