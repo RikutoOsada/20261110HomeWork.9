@@ -41,6 +41,7 @@ void Janken() {
 			errer = true;
 		}
 		if (errer) {
+			cout << "正常な値が入力されませんでした"<<endl;
 			break;
 		}
 
@@ -49,7 +50,7 @@ void Janken() {
 		
 		cout << endl;
 
-		srand((unsigned)(int)time(NULL));
+		//srand((unsigned)(int)time(NULL));
 		int enemyJanken = rand() % 3;
 
 	/*	cout << "相手の手は＞";

@@ -6,7 +6,7 @@ using namespace std;
 
 void Kazuate() {
 
-	srand((unsigned)(int)time(NULL));
+	//srand((unsigned)(int)time(NULL));
 	int answer = rand() % 10 + 1;
 
 	cout << "5回以内に１から１０の数を当ててね " << endl
